@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+body{
+    text-align: center;
+    background: linear-gradient(rgb(148, 249, 249),rgb(4, 188, 188));
+}
+.header{
+    border-radius: 25px;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(238, 111, 238),rgb(192, 35, 192));
+}
+.note{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#copy_right{
+    font-family: 'Arvo', serif;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    line-height: 3;
+    color: black;
+    background-color: white;
+}
+canvas{
+    box-shadow: 5px 5px 32px;
+    border-radius: 5px;
+    border: 5px solid rgb(217, 255, 255);
+}
